@@ -1,0 +1,481 @@
+*{
+    font-family: "Roboto", sans-serif;
+   }
+
+header{
+    position: relative;
+    
+    height: 50px;
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+   height: 50px;
+   background-color: #212121;
+    z-index: 2;  
+ 
+}
+
+.menu{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu_link{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300px;    
+}
+
+.menu .menu_item{
+    border-right: 2px dotted white; 
+    padding-right: 28px;
+}
+/* Первое оглавление закончилось */
+
+.subheader{
+    top: 50px;
+    width: 100%;
+    position: absolute;
+    height: 84px;
+    background-color: rgba(0,0,0, .6)
+    }
+
+.subheader_text{
+    margin-top: 5px;
+    opacity: 0.5;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.uber{
+    display: block; 
+    max-width: 100%;
+    margin-top: 22px;
+}
+
+.subheader_phone{
+  margin-top: 23px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.subheader_tel{
+  font-size: 22px;
+   color: #ffffff;
+   margin-top: 8px;
+}
+.subheader_btn{
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    border-radius: 9px;
+    text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+    font-size: 14px;
+    color: #ffffff;
+}
+.subheader_btn:hover{
+    background-color: black;
+}
+
+.promo{
+    height: 799px;
+    background: url(../img/fons.png)
+}
+
+.tittle{
+  font-size: 60px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 67px;
+}
+.sub_tittle{
+  font-size: 36px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.promo_text{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.promo_btn{
+
+  display: block;
+  margin: 0 auto;
+  margin-top: 118px;
+  width: 259px;
+  height: 63px;
+  border-radius:4px;
+  box-shadow: inset 0px -4px 0 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+  text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 3.78;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.promo_btn:hover{
+    background-image:none;
+    background-color:red;
+}
+
+.advangers{
+    height: 900px;    
+}
+
+.advangers_adv{
+    width: 112px;
+    height: 24px;
+    display: block;
+    margin: 0 auto;
+    font-weight: 300px;
+    margin-top: 71px;
+    line-height: 30px;
+    background-color: #000000;
+    font-size: 11px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff; 
+}
+
+.sub_adv{
+    margin-top: 44px;
+    font-size: 38px;
+    font-weight: 700px;
+    text-align: center;
+    color: #222222;
+}
+ .flex{
+    display: flex; 
+  
+}
+.flex_text{
+    margin-left: 26px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    
+    color: #202020;
+}
+
+.flex_img{
+  width: 113px;
+  height: 113px;
+}
+
+span{
+    font-size: 19px;
+    color: #1eacc7;
+}
+
+/* секция завершена */
+
+.mobile{
+    background: url(../img/fon_mobile.png);
+    height: 864;
+    background-position: center center; 
+    background-size: cover no-repeat; 
+    padding: 64px 0px 80px 0px;
+}
+.mobile_oppor{
+    margin: 0 auto;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    font-size: 11px;
+    font-weight: 300;
+   text-align: center;
+    color: #ffffff;
+    line-height: 25px;
+}
+.mobile_title{
+  margin-top: 38px;  
+  font-size: 38px;
+ text-align: center;
+  color: #222222;
+}
+.mobile_text{
+    margin-top: 19px;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: normal;
+    text-align: center;
+    color: #222222;
+}
+
+h3{
+    font-size: 38px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.26;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222222;
+}
+
+.mobile_img {
+    width: 320px;
+    height: 280px;
+    margin: 0 auto; 
+    margin-bottom: 19px; 
+    padding-top: 90px;
+    
+    }
+
+.mobile_text{
+    margin-left: 20px;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center; 
+            
+    
+}
+
+.mobile_gift_1{
+    background: url(../icons/order.png)
+}
+
+.mobile_gift_2{
+    background: url(../icons/supply.png)
+}
+
+.mobile_gift_3{
+    background:url(../icons/cost.png)
+}
+
+.mobile_gift4{
+    background: url(../icons/pay.png)
+}
+
+/* мобильное приложение закончилсо */
+
+.choice_one{
+    width: 100%;
+    min-height: 500px;
+    background-color:black;
+    padding-top: 57px;
+    position: absolute;
+}
+
+.choice_oppor{ 
+    width: 112px;
+    height: 24px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    font-size: 11px;
+    text-align: center;
+    line-height: 25px;
+    color: #070716;
+   }
+
+.choice_title{
+    margin-top: 32px;  
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+}
+
+.choice_text{
+    margin-top: 27px;
+    margin-left: 20px;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.choice_img{
+    display: block;
+    margin: 0 auto;
+}
+
+/* cекция автомобиля завершена часть1 */
+
+.choice_two{
+    min-height: 397px; 
+} 
+
+.car_uber{
+position: relative;
+display: block;
+margin: 0 auto;
+margin-top: 350px;
+}
+.car_text{
+   
+  margin: 0 auto;
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #222222;
+}
+
+.condition{
+    min-height: 920px;
+    padding: 205px 0 85px 0;
+}
+
+.condition_title{
+
+    font-size: 22px;
+    font-weight: normal;
+    color: #1ca8c3;
+}
+.condition_tittle{
+    color: #1ca8c3;
+
+}
+
+.condition_img{
+
+width: 20px;
+height:20px;
+left: 10px;
+}
+
+ul{
+    margin-top: 36px;
+    list-style-position: none;
+}
+
+li{
+    list-style-type: none;
+    display: flex;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 10px;
+    font-size: 17px;
+   font-stretch: normal;
+    font-style: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+}
+
+.condition_rable{
+margin-top: 62px;
+}
+
+.condition_ritle{
+   
+    font-size: 22px;
+    font-weight: normal;
+    color: #ff5656;
+}
+
+
+.world{
+    min-height: 717px;
+    background-color: black;
+    
+    padding: 50px 0 50px 0;
+    background-image: url(../img/world.png);
+    background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Секция завершена */
+
+footer{
+    min-height: 155px;
+    padding: 15px 0 35px 0;
+}
+
+.footer_wait{
+    margin: 0 auto;
+    width: 299px;
+    height: 4px;
+   background-color: #1fbad6;
+}
+
+.footer_flex{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer_main{
+    width: 600px;
+    margin: 0 auto;
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+}    
+
+.sdf{
+    margin: 0 40px;
+}
+
+.sdf:hover{
+    color: red;
+}
+.footer_help{
+    margin: 0 auto;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+   font-family: Roboto;
+   font-size: 11px;
+   font-weight: 300;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 6.18;
+   letter-spacing: normal;
+   text-align: left;
+   color: #999999;
+}
+
+
+li:nth-child(3){
+    color: red;
+}
+
+li:nth-child(2){
+    color: greenyellow;
+}
